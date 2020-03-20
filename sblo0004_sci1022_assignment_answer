@@ -1,0 +1,5 @@
+$ mkdir ~/ebooks
+$ curl http://www.gutenberg.org/cache/epub/2265/pg2265.txt -o ~/ebooks/hamlet.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  180k  100  180k    0     0  90041      0  0:00:02  0:00:02 --:--:-- 90174
