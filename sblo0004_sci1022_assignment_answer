@@ -6,8 +6,11 @@
 ~$ cd /usr/lib
 /usr/lib$ wc -c /home/sblo0004/ebooks/hamlet.txt
 184406 /home/sblo0004/ebooks/hamlet.txt
-/usr/lib$ ls -l ~/ebooks/hamlet.txt
--rw-rw-r--+ 1 sblo0004 Domain Users 184406 Mar 21 10:43 /home/sblo0004/ebooks/hamlet.txt
+/usr/lib$ cd
+~$ ls -l ebooks/hamlet.txt
+-rw-rw-r--+ 1 sblo0004 Domain Users 184406 Mar 21 10:43 ebooks/hamlet.txt
+~$ cd -
+/usr/lib
 /usr/lib$ wc ~/ebooks/hamlet.txt
   5307  32252 184406 /home/sblo0004/ebooks/hamlet.txt
 /usr/lib$ head -n 3447 ~/ebooks/hamlet.txt | tail -n 1
