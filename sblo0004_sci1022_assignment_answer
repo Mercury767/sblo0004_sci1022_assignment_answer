@@ -8,3 +8,5 @@
 -rw-rw-r--+ 1 sblo0004 Domain Users 184406 Mar 21 10:43 /home/sblo0004/ebooks/hamlet.txt
 /usr/lib$ ls -l ~/ebooks/hamlet.txt
 -rw-rw-r--+ 1 sblo0004 Domain Users 184406 Mar 21 10:43 /home/sblo0004/ebooks/hamlet.txt
+/usr/lib$ wc ~/ebooks/hamlet.txt
+  5307  32252 184406 /home/sblo0004/ebooks/hamlet.txt
