@@ -4,11 +4,13 @@
                                  Dload  Upload   Total   Spent    Left  Speed
 100  180k  100  180k    0     0  90041      0  0:00:02  0:00:02 --:--:-- 90174
 ~$ cd /usr/lib
-/usr/lib$ ls -l /home/sblo0004/ebooks/hamlet.txt
--rw-rw-r--+ 1 sblo0004 Domain Users 184406 Mar 21 10:43 /home/sblo0004/ebooks/hamlet.txt
+/usr/lib$ wc -c /home/sblo0004/ebooks/hamlet.txt
+184406 /home/sblo0004/ebooks/hamlet.txt
 /usr/lib$ ls -l ~/ebooks/hamlet.txt
 -rw-rw-r--+ 1 sblo0004 Domain Users 184406 Mar 21 10:43 /home/sblo0004/ebooks/hamlet.txt
 /usr/lib$ wc ~/ebooks/hamlet.txt
   5307  32252 184406 /home/sblo0004/ebooks/hamlet.txt
 /usr/lib$ head -n 3447 ~/ebooks/hamlet.txt | tail -n 1
 Is thought-sicke at the act
+/usr/lib$ grep -i hamlet ~/ebooks/hamlet.txt | wc -l
+109
